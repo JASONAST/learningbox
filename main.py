@@ -363,7 +363,7 @@ class SetWindow:
         5, 15, text='⚙设置', anchor='w', font=('楷体', 12), fill=theme['MainColor'][0])
     canvas.create_text(
         150, 470, fill=theme['MainColor'][0], justify='center', font=('楷体', 10),
-        text='本工具由eduhk Group7\n—— 使用Python的tkinter模块 ——\n基于@Xiaokang2022版本打造(版本号:%s)' % __version__)
+        text='本工具由Group7\n—— 基于@Xiaokang2022 thinkertools工具 ——\n使用Python的tkinter模块打造(版本号:%s)' % __version__)
     
     # 添加主题切换按钮
     theme_button = tkintertools.CanvasButton(

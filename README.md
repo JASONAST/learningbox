@@ -23,7 +23,7 @@ python -m pytest test_main.py -v
 2.脚本打包
 python build.py
 
-3、同目录下手动添加文件
+3.同目录下手动添加文件
 task.ico tasks.json theme.json config.json
 
 
